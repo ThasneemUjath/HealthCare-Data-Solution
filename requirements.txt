@@ -1,0 +1,6 @@
+requests
+mysql-connector-python
+streamlit
+google-genai
+bcrypt
+python-dotenv
