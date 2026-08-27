@@ -179,3 +179,23 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Secrets - never upload
+.env
+
+# Learning/practice files - keep local only
+search.py
+step2_pmids.py
+step3_fetch_one.py
+step4_title_authors.py
+step5_full_field.py
+pubmed_fetcher.py
+
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
