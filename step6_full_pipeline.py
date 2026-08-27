@@ -1,17 +1,3 @@
-"""
-STEP 6 (FINAL): Put it all together.
-
-What's new compared to Steps 1-5:
-    1. Instead of ONE pmid, we now fetch up to 50 at once.
-    2. Instead of writing parsing code inline, we wrap each job into a
-       FUNCTION -- this makes the code reusable and easier to read.
-    3. We add proper error handling (try/except) around anything that
-       could fail: network issues, bad responses, broken XML.
-
-This is basically Steps 1-5 glued together, reorganized into functions,
-plus safety nets added around the risky parts.
-"""
-
 import requests
 import xml.etree.ElementTree as ET
 import time
